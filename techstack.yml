@@ -1,0 +1,269 @@
+repo_name: Bijikyu/tnl-midjourney-api
+report_id: 889189bb10a56d5c6a9160524d487a80
+repo_type: Public
+timestamp: '2023-12-02T21:32:05+00:00'
+requested_by: midjourney-api-the-next-leg
+provider: github
+branch: main
+detected_tools_count: 20
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: ".eslintrc"
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/ci-build.yaml"
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 10.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: "@types/chai"
+  description: TypeScript definitions for chai
+  package_url: https://www.npmjs.com/@types/chai
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.14.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.54.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:52:22.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.54.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:52:22.000000000 Z
+- name: conventional-changelog-cli
+  description: Generate a changelog from git metadata
+  package_url: https://www.npmjs.com/conventional-changelog-cli
+  version: 2.2.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16260/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: cz-conventional-changelog
+  description: Commitizen adapter following the conventional-changelog format
+  package_url: https://www.npmjs.com/cz-conventional-changelog
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15961/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: nyc
+  description: The Istanbul command line interface
+  package_url: https://www.npmjs.com/nyc
+  version: 15.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: source-map-support
+  description: Fixes stack traces for files with source maps
+  package_url: https://www.npmjs.com/source-map-support
+  version: 0.5.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: github.com/Bijikyu/tnl-midjourney-api/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: njho
+  last_updated_on: 2023-05-01 01:41:58.000000000 Z
